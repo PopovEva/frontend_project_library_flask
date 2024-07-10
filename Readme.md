@@ -23,22 +23,9 @@ This is the frontend part of the Library Management System, providing a user-fri
 1. Clone the repository
 2. Navigate to the frontend directory
 3. Open `index.html` in a web browser
+ 
+ ! ! The application connects to the backend service running at http://127.0.0.1:5057. (local, befor render)  
 
-The application connects to the backend service running at `https://backend-project-library-flask.onrender.com`.  
-or  
-The application connects to the backend service running at http://127.0.0.1:5057. (local, befor render)  
-
-The `index.html` file references the `script.js` file, which connects to the backend through:  
-
-document.addEventListener("DOMContentLoaded", () => {
-    const apiUrl = "https://backend-project-library-flask.onrender.com";
-});  
-
-Before deploying to Render, it was:  
-
-document.addEventListener("DOMContentLoaded", () => {
-    const apiUrl = "http://127.0.0.1:5057";
-});  
 
 (port=5057)
 
@@ -86,4 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Backend
 
-For the backend part of this application, please refer to [[Backend Repository Link](https://backend-project-library-flask.onrender.com)].
+Render:  
+
+For the backend part of this application, please refer to [[Backend Repository Link](https://backend-project-library-flask.onrender.com)].  
