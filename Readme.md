@@ -24,8 +24,12 @@ This is the frontend part of the Library Management System, providing a user-fri
 2. Navigate to the frontend directory
 3. Open `index.html` in a web browser
  
- ! ! The application connects to the backend service running at http://127.0.0.1:5057. (local, befor render)  
-
+  !!!
+The application running at http://127.0.0.1:5057. (local)  !!    
+  
+  Run the application through the back terminal.
+dont forget to Clone the front repository:  
+https://github.com/PopovEva/backend_project_library_flask.git
 
 (port=5057)
 
@@ -75,4 +79,7 @@ This is the frontend part of the Library Management System, providing a user-fri
 
 Render:  
 
-For the backend part of this application, please refer to [[Backend Repository Link](https://backend-project-library-flask.onrender.com)].  
+https://backend-project-library-flask.onrender.com
+
+git:  
+https://github.com/PopovEva/backend_project_library_flask.git
