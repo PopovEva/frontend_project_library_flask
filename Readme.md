@@ -24,7 +24,7 @@ This is the frontend part of the Library Management System, providing a user-fri
 2. Navigate to the frontend directory
 3. Open `index.html` in a web browser
 
-The application connects to the backend service running at `http://127.0.0.1:5057`.
+The application connects to the backend service running at `https://backend-project-library-flask.onrender.com`.
 
 ## User Guide
 
@@ -70,4 +70,4 @@ The application connects to the backend service running at `http://127.0.0.1:505
 
 ## Backend
 
-For the backend part of this application, please refer to [Backend Repository Link].
+For the backend part of this application, please refer to [[Backend Repository Link](https://backend-project-library-flask.onrender.com)].
