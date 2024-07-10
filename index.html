@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="icon" href="img/favicon.ico.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Library Management</h1>
+        <div id="auth-content" class="mt-4 text-center">
+            <h2>Welcome to the Library</h2><hr>
+            <h5>Embark on a journey through the pages of a book, where each chapter is a gateway to new worlds,<br> and every turn of the page
+                sparks the imagination. Let literature be your guide<br> to the endless possibilities that await within the quiet sanctuary of the library.</h5><hr>
+            <h3>Please login or register to access the full features of the library.</h3><hr>
+            <button id="login-btn" class="btn btn-primary mr-2">Login</button>
+            <button id="register-btn" class="btn btn-secondary">Register</button>
+            <button id="view-books-btn" class="btn btn-info ml-2">Quick view of the Books List:</button>
+        </div>
+        <div id="form-content" class="mt-4"></div>
+        <div id="book-content" class="mt-4"></div>
+        <div id="user-profile" class="mt-4" style="display:none;"></div>
+    </div>
+    <!-- User Modal -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="user-modal-body"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
