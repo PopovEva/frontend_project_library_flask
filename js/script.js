@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const apiUrl = "http://127.0.0.1:5057";
+    const apiUrl = "https://backend-project-library-flask.onrender.com";
     const authContent = document.getElementById('auth-content');
     const formContent = document.getElementById('form-content');
     const bookContent = document.getElementById('book-content');
