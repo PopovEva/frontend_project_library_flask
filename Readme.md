@@ -24,14 +24,12 @@ This is the frontend part of the Library Management System, providing a user-fri
 2. Navigate to the frontend directory
 3. Open `index.html` in a web browser
  
-  !!!
-The application running at http://127.0.0.1:5057. (local)  !!    
+
+The application running at http://127.0.0.1:5057.   
   
-  Run the application through the back terminal.
-dont forget to Clone the front repository:  
+dont forget to Clone the back repository:  
 https://github.com/PopovEva/backend_project_library_flask.git
 
-(port=5057)
 
 ## User Guide
 

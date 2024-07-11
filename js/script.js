@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="${book.image_url}" class="card-img" alt="${book.title}" style="width: 150px; height: auto;">
+                            <img src="${apiUrl}/${book.image_url}" class="card-img" alt="${book.title}" style="width: 150px; height: auto;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -274,7 +274,7 @@ const displayUsersForAdmin = (users) => {
             <div class="card mb-3 ${user.is_active ? '' : 'bg-light'}">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="${user.profile_photo}" class="card-img" alt="${user.username}" style="width: 150px; height: 200px; object-fit: cover; border-radius: 50%;">
+                        <img src="${apiUrl}/${user.profile_photo}" class="card-img" alt="${user.username}" style="width: 150px; height: 200px; object-fit: cover; border-radius: 50%;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -469,7 +469,7 @@ const displayUsersForAdmin = (users) => {
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="${user.profile_photo}" class="card-img" alt="${user.username}" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;">
+                            <img src="${apiUrl}/${user.profile_photo}" class="card-img" alt="${user.username}" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -507,7 +507,7 @@ const displayUsersForAdmin = (users) => {
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="${loan.book.image_url}" class="card-img" alt="${loan.book.title}" style="width: 150px; height: auto;">
+                            <img src="${apiUrl}/${loan.book.image_url}" class="card-img" alt="${loan.book.title}" style="width: 150px; height: auto;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -551,7 +551,7 @@ const displayUsersForAdmin = (users) => {
                 <div class="card mb-3" style="border: 2px solid red;">
                     <div class="row no-gutters">
                         <div class="col-md-4">
-                            <img src="${loan.book.image_url}" class="card-img" alt="${loan.book.title}" style="width: 150px; height: auto;">
+                            <img src="${apiUrl}/${loan.book.image_url}" class="card-img" alt="${loan.book.title}" style="width: 150px; height: auto;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -743,7 +743,7 @@ const displayUsersForAdmin = (users) => {
             <div class="card mb-3">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="${user.profile_photo}" class="card-img" alt="${user.username}" id="user-profile-img" style="width: 150px; height: auto;">
+                        <img src="${apiUrl}/${user.profile_photo}" class="card-img" alt="${user.username}" id="user-profile-img" style="width: 150px; height: auto;">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
