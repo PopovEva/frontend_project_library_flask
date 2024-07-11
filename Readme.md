@@ -25,9 +25,13 @@ This is the frontend part of the Library Management System, providing a user-fri
 3. Open `index.html` in a web browser
  
 
-The application running at http://127.0.0.1:5057.   
-  
-dont forget to Clone the back repository:  
+## Backend
+
+Render:  
+
+https://backend-project-library-flask.onrender.com
+
+git:  
 https://github.com/PopovEva/backend_project_library_flask.git
 
 
@@ -73,11 +77,4 @@ https://github.com/PopovEva/backend_project_library_flask.git
   - `styles.css`: Custom styles for the application
 - `img/`: Stores static images used in the frontend
 
-## Backend
 
-Render:  
-
-https://backend-project-library-flask.onrender.com
-
-git:  
-https://github.com/PopovEva/backend_project_library_flask.git
