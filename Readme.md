@@ -1,6 +1,10 @@
 # Library Management System - Frontend
 
-This is the frontend part of the Library Management System, providing a user-friendly interface for interacting with the library services.
+This is the frontend part of the Library Management System, providing a user-friendly interface for interacting with the library services.  
+
+### You can view my Library Management System live on Netlify:   
+
+http://evafrontlibrary.netlify.app   
 
 ## Features
 
@@ -22,17 +26,19 @@ This is the frontend part of the Library Management System, providing a user-fri
 
 1. Clone the repository
 2. Navigate to the frontend directory
-3. Open `index.html` in a web browser
+3. Open `index.html` in a web browser  
+### To access admin features, use the following credentials:
+- Username: Eva
+- Password: eva543 
  
 
 ## Backend
+git:  
+https://github.com/PopovEva/backend_project_library_flask.git  
 
 Render:  
 
 https://backend-project-library-flask.onrender.com
-
-git:  
-https://github.com/PopovEva/backend_project_library_flask.git
 
 
 ## User Guide
